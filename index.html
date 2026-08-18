@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Akeel - Portfolio | Diploma 4th Semester Computer Science and Engineering (CSE) Student. Explore 3D web projects, skills, education, and gallery.">
+  <meta name="keywords" content="Akeel, CSE Student, Portfolio, Web Developer, Computer Science, 3D Portfolio, Three.js">
+  <meta name="author" content="Akeel">
+  <title>Akeel | 3D Portfolio - Diploma CSE Student</title>
+
+  <!-- Google Fonts & Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <span>AKEEL</span>
+        <span class="logo-dot"></span>
+      </a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html" class="nav-link active">HOME</a></li>
+        <li><a href="about.html" class="nav-link">ABOUT</a></li>
+        <li><a href="skills.html" class="nav-link">SKILLS</a></li>
+        <li><a href="projects.html" class="nav-link">PROJECTS</a></li>
+        <li><a href="education.html" class="nav-link">EDUCATION</a></li>
+        <li><a href="gallery.html" class="nav-link">GALLERY</a></li>
+        <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- 3D Hero Section -->
+  <section class="hero" id="hero">
+    <div class="canvas-container">
+      <canvas id="hero-canvas"></canvas>
+    </div>
+
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="section-tag">
+          <i class="fa-solid fa-code-branch"></i> Diploma CSE 4th Semester
+        </div>
+        <h1>Hello, I'm <span class="gradient-text">Akeel</span></h1>
+        <div class="hero-subtitle">
+          <span>&gt; Computer Science & Engineering Student</span>
+          <span class="typing-cursor"></span>
+        </div>
+        <p class="hero-description">
+          Passionate about technology, modern web development, programming algorithms, networking, and emerging tech solutions. Building the future one line of code at a time.
+        </p>
+
+        <div class="hero-cta">
+          <a href="projects.html" class="btn btn-primary">
+            <span>Explore My Work</span> <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="contact.html" class="btn btn-outline">
+            <span>Contact Me</span>
+          </a>
+          <a href="#about-preview" class="btn btn-secondary btn-sm" style="display: none;">
+            <span>Download CV</span>
+          </a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <h3>4th</h3>
+            <p>Semester CSE</p>
+          </div>
+          <div class="stat-item">
+            <h3>12+</h3>
+            <p>Tech Skills</p>
+          </div>
+          <div class="stat-item">
+            <h3>6+</h3>
+            <p>Projects Built</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-3d-card">
+          <div class="floating-tech-badge badge-1">
+            <i class="fa-brands fa-html5"></i>
+            <span>Web Dev</span>
+          </div>
+          <div class="floating-tech-badge badge-2">
+            <i class="fa-solid fa-cube"></i>
+            <span>Three.js & CSS 3D</span>
+          </div>
+          <div class="floating-tech-badge badge-3">
+            <i class="fa-solid fa-network-wired"></i>
+            <span>CS Core & Networks</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick About Section Preview -->
+  <section class="section-padding" id="about-preview">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Overview</div>
+        <h2>Who I Am</h2>
+        <p>A dedicated CSE Diploma student focused on learning core computer engineering principles and practical software creation.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-img-wrapper">
+          <div class="about-glow"></div>
+          <div class="about-img-card">
+            <img src="https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?auto=format&fit=crop&w=800&q=80" alt="Akeel Workspace - Developer Setup">
+          </div>
+        </div>
+
+        <div class="about-details">
+          <h3>Driven by Innovation & Technology</h3>
+          <p>
+            I am currently pursuing my <strong>Diploma in Computer Science & Engineering (4th Semester)</strong>. My academic journey has equipped me with strong fundamentals in programming, web development, data structures, and database management systems.
+          </p>
+          <p>
+            I enjoy transforming creative ideas into interactive web applications and exploring 3D interactive design paradigms using modern technologies like Three.js and ES6 JavaScript.
+          </p>
+
+          <div class="about-cards-grid">
+            <div class="glass-card info-card">
+              <h4><i class="fa-solid fa-graduation-cap"></i> Education</h4>
+              <p>Diploma CSE (4th Sem)</p>
+            </div>
+            <div class="glass-card info-card">
+              <h4><i class="fa-solid fa-laptop-code"></i> Main Focus</h4>
+              <p>Web Development & C/Python</p>
+            </div>
+            <div class="glass-card info-card">
+              <h4><i class="fa-solid fa-gears"></i> Core Skills</h4>
+              <p>Data Structures & DBMS</p>
+            </div>
+            <div class="glass-card info-card">
+              <h4><i class="fa-solid fa-bullseye"></i> Goal</h4>
+              <p>Future IT Professional</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Preview Section -->
+  <section class="section-padding" style="background: rgba(11, 17, 32, 0.4);">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Capabilities</div>
+        <h2>Core Technical Skills</h2>
+        <p>A balanced mix of computer science fundamentals, programming languages, and web technologies.</p>
+      </div>
+
+      <div class="skills-categories">
+        <div class="glass-card skill-category">
+          <h3><i class="fa-solid fa-code"></i> Programming Languages</h3>
+          <div class="skill-item">
+            <div class="skill-info"><span>C / C++</span><span>75%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="75"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Python</span><span>70%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="70"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>Java</span><span>65%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="65"></div></div>
+          </div>
+        </div>
+
+        <div class="glass-card skill-category">
+          <h3><i class="fa-solid fa-layer-group"></i> Web Technologies</h3>
+          <div class="skill-item">
+            <div class="skill-info"><span>HTML5 & CSS3</span><span>85%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="85"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>JavaScript (ES6+)</span><span>75%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="75"></div></div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><span>3D & Three.js Canvas</span><span>60%</span></div>
+            <div class="skill-bar"><div class="skill-progress" data-progress="60"></div></div>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 40px;">
+        <a href="skills.html" class="btn btn-outline">
+          <span>View All Skills & Tools</span> <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Projects Preview -->
+  <section class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Portfolio</div>
+        <h2>Featured Projects</h2>
+        <p>A showcase of student-level applications and front-end development projects.</p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project Card 1 -->
+        <div class="glass-card project-card">
+          <div class="project-img-container">
+            <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80" alt="3D Personal Portfolio Website">
+            <div class="project-overlay">
+              <a href="projects.html" class="btn btn-primary btn-sm">Details</a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>3D Personal Portfolio Website</h3>
+            <p>Interactive multi-page portfolio built with HTML5, CSS3, JavaScript, and Three.js featuring 3D hero objects and glassmorphism.</p>
+            <div class="project-tags">
+              <span class="project-tag">HTML5</span>
+              <span class="project-tag">CSS3</span>
+              <span class="project-tag">Three.js</span>
+              <span class="project-tag">JS</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 2 -->
+        <div class="glass-card project-card">
+          <div class="project-img-container">
+            <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=80" alt="Student Management System UI">
+            <div class="project-overlay">
+              <a href="projects.html" class="btn btn-primary btn-sm">Details</a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Student Management System UI</h3>
+            <p>Clean front-end interface for managing student records, course enrollments, and academic grades.</p>
+            <div class="project-tags">
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">HTML/CSS</span>
+              <span class="project-tag">DBMS Concept</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project Card 3 -->
+        <div class="glass-card project-card">
+          <div class="project-img-container">
+            <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80" alt="Python Utility Tool">
+            <div class="project-overlay">
+              <a href="projects.html" class="btn btn-primary btn-sm">Details</a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Python Mini Project</h3>
+            <p>Console & GUI-based utility program for file processing and automated data calculations built using Python.</p>
+            <div class="project-tags">
+              <span class="project-tag">Python</span>
+              <span class="project-tag">CLI</span>
+              <span class="project-tag">Algorithms</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 40px;">
+        <a href="projects.html" class="btn btn-primary">
+          <span>Explore All 6 Projects</span> <i class="fa-solid fa-folder-open"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner Section -->
+  <section class="section-padding" style="background: linear-gradient(135deg, rgba(0, 240, 255, 0.08) 0%, rgba(139, 92, 246, 0.08) 100%);">
+    <div class="container" style="text-align: center;">
+      <h2 style="font-size: 2.5rem; margin-bottom: 15px;">Interested in Collaboration?</h2>
+      <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto 30px auto;">
+        I am eager to connect with fellow developers, academic peers, and technology mentors.
+      </p>
+      <a href="contact.html" class="btn btn-primary">
+        <span>Get In Touch</span> <i class="fa-solid fa-paper-plane"></i>
+      </a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span>AKEEL</span>
+            <span class="logo-dot"></span>
+          </a>
+          <p>
+            Diploma 4th Semester Computer Science and Engineering Student. Passionate about software engineering, computer networking, and front-end 3D web design.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h4>Connect</h4>
+          <div class="social-icons">
+            <a href="https://github.com/yourusername" target="_blank" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:your-email@example.com" class="social-icon" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Akeel. All Rights Reserved. | Diploma CSE 4th Semester Portfolio</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>a
