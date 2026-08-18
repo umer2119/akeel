@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HD Media & Project Gallery of Akeel - Diploma 4th Semester CSE Student. Filterable technology images, coding setups, campus environment, and project snapshots with interactive Lightbox.">
+  <title>Image Gallery | Akeel - CSE Diploma Student</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <span>AKEEL</span>
+        <span class="logo-dot"></span>
+      </a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="index.html" class="nav-link">HOME</a></li>
+        <li><a href="about.html" class="nav-link">ABOUT</a></li>
+        <li><a href="skills.html" class="nav-link">SKILLS</a></li>
+        <li><a href="projects.html" class="nav-link">PROJECTS</a></li>
+        <li><a href="education.html" class="nav-link">EDUCATION</a></li>
+        <li><a href="gallery.html" class="nav-link active">GALLERY</a></li>
+        <li><a href="contact.html" class="nav-link">CONTACT</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Gallery Hero Header -->
+  <section class="section-padding" style="padding-top: 140px; padding-bottom: 40px;">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Visual Collection</div>
+        <h2>Media & Project <span class="gradient-text">Gallery</span></h2>
+        <p>Explore technology photos, coding workspace setups, project snapshots, and academic activities.</p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="gallery-filter">
+        <button class="filter-btn active" data-filter="all">All Photos</button>
+        <button class="filter-btn" data-filter="tech">Technology</button>
+        <button class="filter-btn" data-filter="coding">Coding & Setup</button>
+        <button class="filter-btn" data-filter="campus">Campus & Labs</button>
+        <button class="filter-btn" data-filter="projects">Projects</button>
+        <button class="filter-btn" data-filter="certs">Certificates</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Grid -->
+  <section class="section-padding" style="padding-top: 0;">
+    <div class="container">
+      <div class="gallery-grid">
+
+        <!-- Image 1 -->
+        <div class="gallery-item" data-category="tech">
+          <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&q=80" alt="Cyber & Hardware Technology" loading="lazy">
+          <div class="gallery-info">
+            <h4>Circuit & Microchip Tech</h4>
+            <p>Category: Technology</p>
+          </div>
+        </div>
+
+        <!-- Image 2 -->
+        <div class="gallery-item" data-category="coding">
+          <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80" alt="Code on Screen Setup" loading="lazy">
+          <div class="gallery-info">
+            <h4>IDE Programming Environment</h4>
+            <p>Category: Coding & Setup</p>
+          </div>
+        </div>
+
+        <!-- Image 3 -->
+        <div class="gallery-item" data-category="projects">
+          <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80" alt="3D Web Development Project" loading="lazy">
+          <div class="gallery-info">
+            <h4>3D Portfolio Web Interface</h4>
+            <p>Category: Projects</p>
+          </div>
+        </div>
+
+        <!-- Image 4 -->
+        <div class="gallery-item" data-category="campus">
+          <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&w=800&q=80" alt="Campus & Academic Study" loading="lazy">
+          <div class="gallery-info">
+            <h4>Campus Library & Study Space</h4>
+            <p>Category: Campus & Labs</p>
+          </div>
+        </div>
+
+        <!-- Image 5 -->
+        <div class="gallery-item" data-category="tech">
+          <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80" alt="Network & Data Visualization" loading="lazy">
+          <div class="gallery-info">
+            <h4>Global Network Topology</h4>
+            <p>Category: Technology</p>
+          </div>
+        </div>
+
+        <!-- Image 6 -->
+        <div class="gallery-item" data-category="coding">
+          <img src="https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?auto=format&fit=crop&w=800&q=80" alt="Developer Desk & Workstation" loading="lazy">
+          <div class="gallery-info">
+            <h4>Dual Monitor Workspace</h4>
+            <p>Category: Coding & Setup</p>
+          </div>
+        </div>
+
+        <!-- Image 7 -->
+        <div class="gallery-item" data-category="certs">
+          <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=800&q=80" alt="Academic Achievements & Learning" loading="lazy">
+          <div class="gallery-info">
+            <h4>Academic Record & Certification</h4>
+            <p>Category: Certificates</p>
+          </div>
+        </div>
+
+        <!-- Image 8 -->
+        <div class="gallery-item" data-category="projects">
+          <img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=800&q=80" alt="Python Code Execution" loading="lazy">
+          <div class="gallery-info">
+            <h4>Python Algorithm Terminal</h4>
+            <p>Category: Projects</p>
+          </div>
+        </div>
+
+        <!-- Image 9 -->
+        <div class="gallery-item" data-category="campus">
+          <img src="https://images.unsplash.com/photo-1562774053-701939374585?auto=format&fit=crop&w=800&q=80" alt="Computer Science Laboratory" loading="lazy">
+          <div class="gallery-info">
+            <h4>Computer Science Lab</h4>
+            <p>Category: Campus & Labs</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox Modal -->
+  <div class="lightbox-modal">
+    <div class="lightbox-content">
+      <button class="lightbox-close" aria-label="Close Lightbox"><i class="fa-solid fa-xmark"></i></button>
+      <button class="lightbox-prev" aria-label="Previous Image"><i class="fa-solid fa-chevron-left"></i></button>
+      <button class="lightbox-next" aria-label="Next Image"><i class="fa-solid fa-chevron-right"></i></button>
+      <img src="" alt="Enlarged Preview" class="lightbox-img">
+      <div class="lightbox-caption"></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <span>AKEEL</span>
+            <span class="logo-dot"></span>
+          </a>
+          <p>
+            Diploma 4th Semester Computer Science and Engineering Student. Passionate about software engineering, computer networking, and front-end 3D web design.
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h4>Connect</h4>
+          <div class="social-icons">
+            <a href="https://github.com/yourusername" target="_blank" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:your-email@example.com" class="social-icon" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Akeel. All Rights Reserved. | Diploma CSE 4th Semester Portfolio</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
